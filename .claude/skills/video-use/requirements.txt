@@ -1,0 +1,5 @@
+faster-whisper>=1.0
+librosa
+matplotlib
+pillow
+numpy
