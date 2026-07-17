@@ -9,6 +9,7 @@ Editor de vídeo conversacional para Claude Code, basado en la skill [video-use]
 | ElevenLabs Scribe (API de pago) | **Whisper local** (`faster-whisper`, gratis, sin API key) |
 | Requiere `ELEVENLABS_API_KEY` | Sin claves ni cuentas de ningún tipo |
 | Diarización de hablantes automática | Sin diarización (Whisper no diariza; se indica manualmente si hace falta) |
+| Remotion se instala bajo demanda desde la red | **Plantilla de Remotion incluida** (`remotion-template/`), lista para copiar en cada slot |
 
 Todo lo demás es igual: cortes por transcripción palabra a palabra, etalonaje con ffmpeg, subtítulos incrustados, animaciones superpuestas (PIL, Manim, Remotion, HyperFrames — todas open source) y el flujo *preguntar → confirmar → ejecutar → iterar*.
 
@@ -22,7 +23,10 @@ pip install -r .claude/skills/video-use/requirements.txt
 sudo apt-get install -y ffmpeg        # Debian/Ubuntu
 # brew install ffmpeg                 # macOS
 
-# 3. Opcional: descargar vídeos de URLs
+# 3. Remotion (motor de animaciones, incluido como plantilla)
+cd .claude/skills/video-use/remotion-template && npm install && cd -
+
+# 4. Opcional: descargar vídeos de URLs
 pip install yt-dlp
 ```
 
@@ -63,4 +67,12 @@ python helpers/grade.py in.mp4 -o out.mp4 --list-presets   # etalonaje de color
     ├── timeline_view.py     ← filmstrip + waveform para decidir cortes
     ├── render.py            ← extracción por segmentos → concat → overlays → subtítulos
     └── grade.py             ← cadenas de filtros ffmpeg para color
+.claude/skills/video-use/remotion-template/
+├── package.json             ← Remotion 4 + React (npm install una vez)
+├── remotion.config.ts       ← soporta Chromium del sistema vía variables de entorno
+└── src/                     ← composición de ejemplo (OverlayCard); cada slot la copia y reescribe
 ```
+
+### Animaciones con Remotion
+
+Remotion viene preconfigurado: cada slot de animación copia `remotion-template/`, reescribe `src/OverlayCard.tsx` con su especificación y renderiza con `npx remotion render OverlayCard render.mp4` (o `render.webm --codec=vp8` para overlays con transparencia). Requiere Node.js 18+.

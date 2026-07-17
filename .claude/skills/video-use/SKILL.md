@@ -62,10 +62,11 @@ The skill lives in `.claude/skills/video-use/`. User footage lives wherever they
 
 First-time install lives in `install.md` (deps, ffmpeg, whisper model). No API keys of any kind. Don't re-run it every session; on cold start just verify:
 
-- `ffmpeg` + `ffprobe` on PATH.
+- `ffmpeg` + `ffprobe` on PATH (`ffprobe -version` — they ship together).
 - Python deps installed: `pip install -r requirements.txt` at the skill root (`faster-whisper`, `librosa`, `matplotlib`, `pillow`, `numpy`).
-- Node.js + npm available only if the session needs HyperFrames or Remotion slots. HyperFrames currently requires Node.js 22+.
-- `yt-dlp`, HyperFrames, Remotion, Manim installed only on first use — all free and open source.
+- Node.js + npm available (Node 18+ for Remotion; HyperFrames currently requires Node.js 22+).
+- **Remotion is part of the standard toolkit.** A ready-to-copy project lives at `remotion-template/` next to this SKILL.md (package.json + `src/` with a worked overlay-card composition). First time only: `npm install` inside `remotion-template/`. Verify with `npx remotion versions`.
+- `yt-dlp`, HyperFrames, Manim installed only on first use — all free and open source.
 - First-use animation setup happens inside the slot directory, never at the skill root. HyperFrames can be invoked with `npx --yes hyperframes ...`; Remotion can be scaffolded with `npx create-video@latest` or installed as a project-local dependency before using its `remotion render` command.
 - The Whisper model downloads automatically (and is cached) on first transcription. Default is `small`; use `--model medium` or `--model large-v3` for better accuracy when the machine can afford it, `--model base` for quick drafts.
 
@@ -207,13 +208,27 @@ Animations match the content and the brand. **Get the palette, font, and visual 
 Pick the engine per animation slot. Do not default to Remotion just because the animation is web-adjacent.
 
 - **HyperFrames** — Browser-native HTML/CSS/GSAP video compositions: product UI motion, website-to-video or mockup-to-video captures, kinetic typography, landing-page/storyboard promos, data-driven UI states, transparent WebM overlays, and clips that need deterministic frame capture plus HyperFrames lint/validate/render checks. Best when the animation should be authored and verified like a web composition instead of a React component tree.
-- **Remotion** — React/CSS compositions with component state, reusable React primitives, or an existing Remotion brand system. Best when the user specifically asks for React/Remotion or when React composition is the simpler authoring model.
+- **Remotion** — React/CSS compositions with component state, reusable React primitives, or an existing Remotion brand system. Best when the user specifically asks for React/Remotion or when React composition is the simpler authoring model. Pre-wired in this skill: start from `remotion-template/` (see below) instead of scaffolding from scratch.
 - **Manim** — formal diagrams, state machines, equation derivations, graph morphs. If the `manim-video` skill is available in the session, read it when building a Manim slot.
 - **PIL + PNG sequence + ffmpeg** — simple overlay cards: counters, typewriter text, single bar reveals, progressive draws. Fast to iterate, any aesthetic you want. The launch video used this.
 
 For HyperFrames slots, scaffold the slot inside `edit/animations/slot_<id>/` with `npx --yes hyperframes init . --example blank --non-interactive --skip-skills`, build the HTML composition there, run the HyperFrames checks that fit the slot (`lint`, `validate`, and a draft render when practical), then produce the final overlay video with `npx --yes hyperframes render . -o render.mp4` or `--format webm -o render.webm` when alpha is required. Point the EDL overlay `file` at the actual rendered path.
 
-For Remotion slots, keep the Remotion project isolated inside the same slot directory, scaffold with `npx create-video@latest` or install Remotion locally there, render the composition to `render.mp4` with the project-local `remotion render` command, and verify duration and dimensions with `ffprobe`.
+For Remotion slots, copy the vendored template into the slot directory instead of scaffolding from the network:
+
+```bash
+cp -r <skill_dir>/remotion-template/. edit/animations/slot_<id>/
+cd edit/animations/slot_<id> && npm install    # fast if the template was installed once (npm cache)
+```
+
+Then rewrite `src/OverlayCard.tsx` (or add compositions in `src/Root.tsx`) to the slot spec, and render with the project-local CLI:
+
+```bash
+npx remotion render <CompositionId> render.mp4
+npx remotion render <CompositionId> render.webm --codec=vp8 --image-format=png   # alpha overlay
+```
+
+Verify duration and dimensions with `ffprobe` before pointing the EDL at the render. In sandboxed environments where Remotion can't download its headless browser, point it at a system Chromium via env vars (the template's `remotion.config.ts` reads them): `REMOTION_BROWSER_EXECUTABLE=/path/to/chromium REMOTION_CHROME_MODE=chrome-for-testing npx remotion render ...`
 
 None is mandatory. Invent hybrids if useful (e.g., PIL background with a HyperFrames or Remotion layer on top).
 
