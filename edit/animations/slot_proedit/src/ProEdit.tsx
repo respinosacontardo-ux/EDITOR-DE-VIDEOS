@@ -9,6 +9,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
+import {Sticker} from './Stickers';
 
 const ACCENT = '#2E86FF';
 const FONT = "'Liberation Sans', 'DejaVu Sans', Arial, sans-serif";
@@ -38,6 +39,26 @@ const ZoomIn: React.FC<{children: React.ReactNode}> = ({children}) => {
     easing: Easing.out(Easing.cubic),
   });
   return <AbsoluteFill style={{transform: `scale(${s})`}}>{children}</AbsoluteFill>;
+};
+
+// Thin creator-style progress bar pinned to the very top of the whole reel
+const ProgressBar: React.FC = () => {
+  const frame = useCurrentFrame();
+  const total = S1_DUR + S2_DUR + S3_DUR + S4_DUR + S5_DUR;
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        height: 10,
+        width: `${(frame / total) * 100}%`,
+        background: ACCENT,
+        boxShadow: `0 0 18px ${ACCENT}`,
+        zIndex: 50,
+      }}
+    />
+  );
 };
 
 // ---------- S1: hook, fullscreen, small chip at very top (clear of the face)
@@ -81,6 +102,9 @@ const S1: React.FC = () => {
           EMPLEADO AUTOMÁTICO
         </div>
       </div>
+      {/* mini-imágenes sincronizadas: "en tu casa" → casita; "clientes" → personas */}
+      <Sticker icon="casa" x={14} y={24} appearAt={40} hideAt={115} tilt={-8} />
+      <Sticker icon="personas" x={85} y={27} appearAt={132} hideAt={192} tilt={7} />
     </ZoomIn>
   );
 };
@@ -185,6 +209,9 @@ const S2: React.FC = () => {
           );
         })}
       </div>
+      {/* "mi empleado" → robot; "en automático" → rayo */}
+      <Sticker icon="robot" x={12} y={16} appearAt={28} hideAt={200} size={150} tilt={-9} />
+      <Sticker icon="rayo" x={88} y={58} appearAt={98} hideAt={205} size={140} tilt={8} />
     </AbsoluteFill>
   );
 };
@@ -267,6 +294,9 @@ const S3: React.FC = () => {
             a personas interesadas en tu negocio
           </div>
         </div>
+        {/* "enviar" → avión de mensajes; "personas interesadas" → personas */}
+        <Sticker icon="avion" x={80} y={19} appearAt={8} hideAt={60} tilt={10} />
+        <Sticker icon="personas" x={15} y={20} appearAt={100} hideAt={168} size={150} tilt={-7} />
       </AbsoluteFill>
     </ZoomIn>
   );
@@ -314,6 +344,9 @@ const S4: React.FC = () => {
           ESCRÍBEME “INFO” ↓
         </div>
       </div>
+      {/* "escríbeme un mensaje" → chat; "te paso toda la información" → dinero/valor */}
+      <Sticker icon="chat" x={82} y={16} appearAt={45} hideAt={140} tilt={8} />
+      <Sticker icon="dinero" x={15} y={16} appearAt={92} hideAt={145} size={140} tilt={-8} />
     </ZoomIn>
   );
 };
@@ -410,6 +443,7 @@ export const ProEdit: React.FC = () => {
       <Sequence from={S1_DUR + S2_DUR + S3_DUR + S4_DUR} durationInFrames={S5_DUR}>
         <S5 />
       </Sequence>
+      <ProgressBar />
     </AbsoluteFill>
   );
 };
