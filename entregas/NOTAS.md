@@ -10,3 +10,11 @@
 Tarjeta final: "¿QUIERES ESTE SISTEMA PARA TU NEGOCIO? — Envíame un mensaje con la palabra INFO".
 Para cambiar el texto o poner un @ / WhatsApp concreto: editar
 `edit/animations/slot_cta/src/OverlayCard.tsx` y re-renderizar (o pedírselo a Claude).
+
+## Sesión 2026-07-20
+
+| Archivo | Duración | Contenido |
+|---|---|---|
+| REEL-6-ANUNCIO-LICENCIA.mp4 | 43s | Anuncio combinado nuevo: gancho + demo empleado (V3) → dato 1000-3000 mensajes/día (V1) → ángulo "sin membresía mensual, licencia por un año" (V2, no usado en REEL-1) → CTA + tarjeta final. 1080×1920 30fps, -14 LUFS |
+
+Tarjeta CTA de esta sesión: `edit/animations/slot_cta_reel6/` (PIL, script `make_card.py` incluido para regenerarla con otro texto).
