@@ -33,3 +33,9 @@
 **Reasoning log:** el corte interno del propio vídeo a los 10.0s permite el punch-zoom sin cortar el audio continuo (zoompan condicional por frame en un único segmento).
 
 **Outstanding:** música de fondo no añadida (sin biblioteca musical libre en el entorno); si el usuario quiere, puede aportar una pista.
+
+## Sesión 3b — 2026-07-21 (REEL-8)
+
+**Estrategia:** remezcla del mismo material con densidad visual alta (referencias IG del usuario no accesibles por red; se aplicó el lenguaje estándar de ese formato: captions grandes karaoke, iconos por frase, pops con rebote, flashes, barra de progreso).
+**Decisiones:** emojis a color vía fonts-noto-color-emoji + Pillow embedded_color (tiles 109px reescalados); easing ease_out_back para pops "que se noten"; flash radial blanco 5 frames reutilizado con split en 7 cortes; barra de progreso con color lavfi + overlay x=f(t); subtítulos 104px máx 2 palabras, activa amarilla \fscx116, keywords azules, jitter ±2° por frase; zooms punch 1.00/1.12. Overlays: gancho 0.12s, teléfono 2.45s, 24/7 6.55s, automático 10.15s, tachados 15.40/17.70, contador 23.70 (aterriza en "tres mil" 25.14), INFO 28.50.
+**Outstanding:** sin música de fondo (sin biblioteca libre en el entorno).

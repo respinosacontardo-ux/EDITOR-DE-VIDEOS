@@ -22,3 +22,5 @@ Tarjeta CTA de esta sesión: `edit/animations/slot_cta_reel6/` (PIL, script `mak
 | REEL-7-SISTEMA-CLIENTES.mp4 | 36s | Edición pro estilo tendencia del vídeo nuevo (18-07): pausas recortadas, punch-zooms alternados (incl. en el corte de escena interno a los 10s), subtítulos karaoke palabra a palabra (resaltado azul), tarjetas animadas sincronizadas con la voz (PUBLICIDAD ✕, AGENCIA DE MARKETING ✕, contador 1.000→3.000 clientes/día, burbuja INFO) + tarjeta CTA final. 1080×1920 30fps, -14 LUFS |
 
 Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, subtítulos .ass y scripts).
+
+| REEL-8-SISTEMA-CLIENTES-V2.mp4 | 36s | Versión recargada del REEL-7 estilo reels de tendencia: título gancho animado, teléfono con chats entrando en vivo, badge 24/7 giratorio, chip "TODO EN AUTOMÁTICO", tachados con sacudida y emojis, contador 1.000→3.000 con cohete y confeti, flashes blancos en cada corte, barra de progreso y captions grandes 1-2 palabras (activa en amarillo, keywords en azul) |
