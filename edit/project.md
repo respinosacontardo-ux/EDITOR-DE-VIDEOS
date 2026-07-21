@@ -56,3 +56,14 @@
 - Audio: cama ambiental sintetizada (aevalsrc, drone 55/110/164.8/220 Hz con trémolos lentos + lowpass 500) + whoosh (anoisesrc rosa filtrado) en cada cambio de sección; la cama baja a 0.35 durante la demo; loudnorm -14 al final.
 - Fuente: Liberation Sans (metric-compatible con la pila Arial del sitio).
 **Outstanding:** el número de WhatsApp aparece como texto (wa.me/…); si el usuario quiere QR, se puede generar.
+
+## Sesión 5 — 2026-07-21 (AD-META con Remotion)
+
+**Estrategia:** anuncio 1080×1920@30 de 38.7s (1160 frames) combinando VIDEO-2026-07-18-02-03-42 (pitch hablado 33.6s) y VIDEO-0721.mov (captura 4K del software real, 55s). Narración CONTINUA del pitch como columna vertebral; visuales en L-cut: cara (0-11.2s) → screen real (11.2-22.2, coincide con "Mirá, así es como funciona") → suite 5 softwares (22.2-28.6, "aplicar en tu negocio, marca o emprendimiento") → CTA (28.6-33.2, "dejame un mensaje") → outro de marca (33.2-38.7).
+**Decisiones técnicas:**
+- Alineación aeneas del pitch (100 palabras) re-anclada a 5 bloques de silencio; mapeo a frames de composición (comp = src-0.21+0.2s). "Mirá"@f337, "tres mil"@f607 (aterrizaje del contador), voz termina f994.
+- Captions karaoke en React (no ASS): chunks ≤2 palabras, activa naranja #ff8a3d con pop 1→1.16, keywords cian; gap 46px para que el scale no coma el espacio.
+- Assets: vidA30 (CFR re-encode, mudo) + vozA.wav (voz separada, ambos en Sequence from=6 con trimBefore=6), demoB.mp4 (4K→1080p, 13s, mudo) con paneo/zoom CSS interpolado dentro de ventana con borde degradado.
+- Átomos de marca exportados desde Presentacion.tsx (Galaxy, LogoMark, Wordmark, Badge, PIcon) y reutilizados.
+- Audio: voz + bed 0.15 (0.55 en outro) + whoosh en cada cambio de sección; loudnorm -14 post-render.
+**Outstanding:** para Meta Ads conviene también una variante 1:1 y una 16:9; se pueden derivar de la misma composición cambiando width/height y ajustando layouts.

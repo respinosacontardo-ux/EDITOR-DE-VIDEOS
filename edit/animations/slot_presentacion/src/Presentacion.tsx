@@ -12,7 +12,7 @@ import {
 } from 'remotion';
 
 // ---------- MKT BATTISTON design tokens (from styles.css of the site) ----------
-const C = {
+export const C = {
   bg: '#07070c',
   surface: '#131319',
   surface2: '#191921',
@@ -24,8 +24,8 @@ const C = {
   cyan: '#22d3ee',
   whatsapp: '#25d366',
 };
-const FONT = 'Liberation Sans, Arial, sans-serif';
-const gradAccent = `linear-gradient(135deg, ${C.orange}, ${C.orange2})`;
+export const FONT = 'Liberation Sans, Arial, sans-serif';
+export const gradAccent = `linear-gradient(135deg, ${C.orange}, ${C.orange2})`;
 
 // ---------- timeline (30 fps) ----------
 export const DUR = 1700;
@@ -33,14 +33,14 @@ const S2 = 150, S3 = 255, S4 = 435, S5 = 1035, S6 = 1455;
 const SOFT_LEN = 120;
 
 // ---------- helpers ----------
-const useT = () => {
+export const useT = () => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   return {frame, fps};
 };
-const pop = (frame: number, fps: number, delay = 0) =>
+export const pop = (frame: number, fps: number, delay = 0) =>
   spring({frame: frame - delay, fps, config: {damping: 12, stiffness: 140, mass: 0.7}});
-const rise = (frame: number, fps: number, delay = 0) =>
+export const rise = (frame: number, fps: number, delay = 0) =>
   spring({frame: frame - delay, fps, config: {damping: 16, stiffness: 120}});
 
 // ---------- galaxy background (like the site's canvas) ----------
@@ -62,7 +62,7 @@ const STARS = (() => {
   }));
 })();
 
-const Galaxy: React.FC = () => {
+export const Galaxy: React.FC = () => {
   const {frame} = useT();
   return (
     <AbsoluteFill style={{background: C.bg, overflow: 'hidden'}}>
@@ -81,7 +81,7 @@ const Galaxy: React.FC = () => {
 };
 
 // ---------- shared atoms ----------
-const LogoMark: React.FC<{size?: number}> = ({size = 64}) => (
+export const LogoMark: React.FC<{size?: number}> = ({size = 64}) => (
   <div style={{width: size, height: size, borderRadius: size * 0.28, background: gradAccent,
     display: 'flex', alignItems: 'center', justifyContent: 'center',
     boxShadow: `0 0 ${size * 0.6}px ${C.orange}66`}}>
@@ -91,14 +91,14 @@ const LogoMark: React.FC<{size?: number}> = ({size = 64}) => (
   </div>
 );
 
-const Wordmark: React.FC<{size?: number}> = ({size = 84}) => (
+export const Wordmark: React.FC<{size?: number}> = ({size = 84}) => (
   <div style={{fontFamily: FONT, fontWeight: 800, fontSize: size, letterSpacing: -1, color: C.text}}>
     MKT{' '}
     <span style={{background: gradAccent, WebkitBackgroundClip: 'text', color: 'transparent'}}>BATTISTON</span>
   </div>
 );
 
-const Badge: React.FC<{children: React.ReactNode}> = ({children}) => (
+export const Badge: React.FC<{children: React.ReactNode}> = ({children}) => (
   <div style={{display: 'inline-flex', alignItems: 'center', gap: 14, padding: '14px 30px',
     borderRadius: 999, border: `1.5px solid ${C.border}`, background: '#13131988',
     fontFamily: FONT, fontSize: 30, color: C.muted}}>
@@ -204,7 +204,7 @@ const Ventajas: React.FC = () => {
 };
 
 // ---------- S4: softwares ----------
-const PIcon: React.FC<{k: string}> = ({k}) => {
+export const PIcon: React.FC<{k: string}> = ({k}) => {
   const sw = {strokeWidth: 1.6, stroke: '#fff', fill: 'none' as const};
   return (
     <svg viewBox="0 0 24 24" width={150} height={150}>
@@ -227,7 +227,7 @@ const PIcon: React.FC<{k: string}> = ({k}) => {
   );
 };
 
-const SOFT = [
+export const SOFT = [
   {k: 'ig', name: 'Software de Instagram', tag: 'Dominá Instagram con IA',
     grad: 'linear-gradient(135deg,#f472b6,#a855f7)',
     feats: ['Gestión automática de cuentas', 'Publicación automática en el perfil', 'Interacción con feed, Reels y DMs']},
