@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Liberation Sans,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H60000000,-1,0,0,0,100,100,1,0,1,7,3,2,50,50,470,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.13,0:00:00.50,Sub,,0,0,0,,{\frz-0.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MIRÁ{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTE
+Dialogue: 0,0:00:00.50,0:00:00.74,Sub,,0,0,0,,{\frz-0.4}{\fscx100\fscy100\c&HFFFFFF&}MIRÁ {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:00.74,0:00:00.90,Sub,,0,0,0,,{\frz-1.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ES{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:00.90,0:00:01.00,Sub,,0,0,0,,{\frz-1.3}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EL{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFF9E4A&}SISTEMA
+Dialogue: 0,0:00:01.00,0:00:01.48,Sub,,0,0,0,,{\frz-1.3}{\fscx100\fscy100\c&HFFFFFF&}EL {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}SISTEMA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:01.48,0:00:01.54,Sub,,0,0,0,,{\frz-1.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}QUE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}CREÉ
+Dialogue: 0,0:00:01.54,0:00:01.78,Sub,,0,0,0,,{\frz-1.0}{\fscx100\fscy100\c&HFFFFFF&}QUE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CREÉ{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:01.78,0:00:02.12,Sub,,0,0,0,,{\frz1.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PARA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}CONTACTAR
+Dialogue: 0,0:00:02.12,0:00:02.49,Sub,,0,0,0,,{\frz1.0}{\fscx100\fscy100\c&HFFFFFF&}PARA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CONTACTAR{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:02.49,0:00:02.89,Sub,,0,0,0,,{\frz-1.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CLIENTES{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:02.89,0:00:03.19,Sub,,0,0,0,,{\frz-0.5}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TODO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}EL
+Dialogue: 0,0:00:03.19,0:00:03.23,Sub,,0,0,0,,{\frz-0.5}{\fscx100\fscy100\c&HFFFFFF&}TODO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EL{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:03.23,0:00:03.92,Sub,,0,0,0,,{\frz0.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DÍA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:04.05,0:00:04.44,Sub,,0,0,0,,{\frz0.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MIENTRAS{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTÁS
+Dialogue: 0,0:00:04.44,0:00:04.77,Sub,,0,0,0,,{\frz0.2}{\fscx100\fscy100\c&HFFFFFF&}MIENTRAS {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTÁS{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:04.77,0:00:05.09,Sub,,0,0,0,,{\frz1.8}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}HACIENDO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:05.09,0:00:05.48,Sub,,0,0,0,,{\frz-0.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CUALQUIER{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}COSA
+Dialogue: 0,0:00:05.48,0:00:06.32,Sub,,0,0,0,,{\frz-0.0}{\fscx100\fscy100\c&HFFFFFF&}CUALQUIER {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}COSA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:06.50,0:00:06.82,Sub,,0,0,0,,{\frz-0.3}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TENGO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTA
+Dialogue: 0,0:00:06.82,0:00:07.17,Sub,,0,0,0,,{\frz-0.3}{\fscx100\fscy100\c&HFFFFFF&}TENGO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:07.17,0:00:07.60,Sub,,0,0,0,,{\frz0.5}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}HERRAMIENTA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:07.60,0:00:07.64,Sub,,0,0,0,,{\frz-1.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}QUE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTÁ
+Dialogue: 0,0:00:07.64,0:00:07.69,Sub,,0,0,0,,{\frz-1.1}{\fscx100\fscy100\c&HFFFFFF&}QUE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTÁ{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:07.64,0:00:08.28,Sub,,0,0,0,,{\frz1.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TRABAJANDO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:08.28,0:00:08.67,Sub,,0,0,0,,{\frz-0.5}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PARA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}MÍ
+Dialogue: 0,0:00:08.67,0:00:08.71,Sub,,0,0,0,,{\frz-0.5}{\fscx100\fscy100\c&HFFFFFF&}PARA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MÍ{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:08.71,0:00:09.02,Sub,,0,0,0,,{\frz-0.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TODO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}EL
+Dialogue: 0,0:00:09.02,0:00:09.06,Sub,,0,0,0,,{\frz-0.4}{\fscx100\fscy100\c&HFFFFFF&}TODO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EL{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:09.06,0:00:09.22,Sub,,0,0,0,,{\frz0.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DÍA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:09.22,0:00:09.34,Sub,,0,0,0,,{\frz-1.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MIRÁ{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:09.34,0:00:09.62,Sub,,0,0,0,,{\frz0.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ACÁ{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}TE
+Dialogue: 0,0:00:09.62,0:00:09.70,Sub,,0,0,0,,{\frz0.6}{\fscx100\fscy100\c&HFFFFFF&}ACÁ {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:09.70,0:00:09.85,Sub,,0,0,0,,{\frz1.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTOY{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:09.85,0:00:10.25,Sub,,0,0,0,,{\frz-0.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MOSTRANDO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:10.25,0:00:10.45,Sub,,0,0,0,,{\frz1.8}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CÓMO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}CON
+Dialogue: 0,0:00:10.45,0:00:10.92,Sub,,0,0,0,,{\frz1.8}{\fscx100\fscy100\c&HFFFFFF&}CÓMO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CON{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:10.92,0:00:11.35,Sub,,0,0,0,,{\frz0.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:11.35,0:00:12.14,Sub,,0,0,0,,{\frz1.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}HERRAMIENTA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:12.14,0:00:12.30,Sub,,0,0,0,,{\frz-0.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PUEDO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}CONSEGUIR
+Dialogue: 0,0:00:12.30,0:00:12.77,Sub,,0,0,0,,{\frz-0.1}{\fscx100\fscy100\c&HFFFFFF&}PUEDO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CONSEGUIR{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:12.77,0:00:13.25,Sub,,0,0,0,,{\frz-0.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CLIENTES{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:13.25,0:00:13.64,Sub,,0,0,0,,{\frz-0.9}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TODO{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}EL
+Dialogue: 0,0:00:13.64,0:00:13.96,Sub,,0,0,0,,{\frz-0.9}{\fscx100\fscy100\c&HFFFFFF&}TODO {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EL{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:13.96,0:00:14.01,Sub,,0,0,0,,{\frz-2.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DÍA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:13.96,0:00:14.00,Sub,,0,0,0,,{\frz-1.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EN{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFF9E4A&}AUTOMÁTICO
+Dialogue: 0,0:00:14.00,0:00:14.27,Sub,,0,0,0,,{\frz-1.2}{\fscx100\fscy100\c&HFFFFFF&}EN {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}AUTOMÁTICO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:14.27,0:00:14.47,Sub,,0,0,0,,{\frz2.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}SIN{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}NECESIDAD
+Dialogue: 0,0:00:14.47,0:00:15.22,Sub,,0,0,0,,{\frz2.0}{\fscx100\fscy100\c&HFFFFFF&}SIN {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}NECESIDAD{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:15.22,0:00:15.50,Sub,,0,0,0,,{\frz0.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}PAGAR
+Dialogue: 0,0:00:15.50,0:00:15.69,Sub,,0,0,0,,{\frz0.1}{\fscx100\fscy100\c&HFFFFFF&}DE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PAGAR{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:15.69,0:00:16.48,Sub,,0,0,0,,{\frz-0.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PUBLICIDAD{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:16.48,0:00:16.52,Sub,,0,0,0,,{\frz1.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}NI{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}CONTRATAR
+Dialogue: 0,0:00:16.52,0:00:17.27,Sub,,0,0,0,,{\frz1.6}{\fscx100\fscy100\c&HFFFFFF&}NI {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CONTRATAR{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:17.27,0:00:17.71,Sub,,0,0,0,,{\frz0.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}UNA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}AGENCIA
+Dialogue: 0,0:00:17.71,0:00:18.38,Sub,,0,0,0,,{\frz0.4}{\fscx100\fscy100\c&HFFFFFF&}UNA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}AGENCIA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:18.38,0:00:18.58,Sub,,0,0,0,,{\frz1.9}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}MARKETING
+Dialogue: 0,0:00:18.58,0:00:18.97,Sub,,0,0,0,,{\frz1.9}{\fscx100\fscy100\c&HFFFFFF&}DE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MARKETING{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:18.97,0:00:19.32,Sub,,0,0,0,,{\frz-0.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PARA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}QUE
+Dialogue: 0,0:00:19.32,0:00:19.38,Sub,,0,0,0,,{\frz-0.6}{\fscx100\fscy100\c&HFFFFFF&}PARA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}QUE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:19.32,0:00:19.56,Sub,,0,0,0,,{\frz-1.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ME{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:19.56,0:00:19.84,Sub,,0,0,0,,{\frz1.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}HAGA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTE
+Dialogue: 0,0:00:19.84,0:00:20.23,Sub,,0,0,0,,{\frz1.7}{\fscx100\fscy100\c&HFFFFFF&}HAGA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:20.23,0:00:20.51,Sub,,0,0,0,,{\frz-1.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TRABAJO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:20.65,0:00:21.35,Sub,,0,0,0,,{\frz1.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}SOLAMENTE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:21.35,0:00:21.38,Sub,,0,0,0,,{\frz0.4}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CON{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTE
+Dialogue: 0,0:00:21.38,0:00:21.64,Sub,,0,0,0,,{\frz0.4}{\fscx100\fscy100\c&HFFFFFF&}CON {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:21.64,0:00:22.13,Sub,,0,0,0,,{\frz1.9}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}SOFTWARE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:22.20,0:00:23.00,Sub,,0,0,0,,{\frz1.8}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}PODÉS{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}ESTAR
+Dialogue: 0,0:00:23.00,0:00:23.18,Sub,,0,0,0,,{\frz1.8}{\fscx100\fscy100\c&HFFFFFF&}PODÉS {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ESTAR{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:23.18,0:00:24.01,Sub,,0,0,0,,{\frz0.6}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CONTACTANDO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:24.01,0:00:24.45,Sub,,0,0,0,,{\frz-1.9}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFF9E4A&}1.000
+Dialogue: 0,0:00:24.45,0:00:24.85,Sub,,0,0,0,,{\frz-1.9}{\fscx100\fscy100\c&HFFFFFF&}DE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}1.000{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:24.85,0:00:25.14,Sub,,0,0,0,,{\frz-1.9}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}HASTA{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFF9E4A&}3.000
+Dialogue: 0,0:00:25.14,0:00:25.75,Sub,,0,0,0,,{\frz-1.9}{\fscx100\fscy100\c&HFFFFFF&}HASTA {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}3.000{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:25.75,0:00:26.22,Sub,,0,0,0,,{\frz-0.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CLIENTES{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:26.22,0:00:26.51,Sub,,0,0,0,,{\frz1.3}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}POR{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}DÍA
+Dialogue: 0,0:00:26.51,0:00:26.84,Sub,,0,0,0,,{\frz1.3}{\fscx100\fscy100\c&HFFFFFF&}POR {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DÍA{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:26.84,0:00:27.49,Sub,,0,0,0,,{\frz-1.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}INTERESADOS{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:27.49,0:00:27.54,Sub,,0,0,0,,{\frz-0.3}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}EN{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}TU
+Dialogue: 0,0:00:27.49,0:00:27.54,Sub,,0,0,0,,{\frz-0.3}{\fscx100\fscy100\c&HFFFFFF&}EN {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TU{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:27.49,0:00:28.30,Sub,,0,0,0,,{\frz-1.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}NEGOCIO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:28.51,0:00:28.77,Sub,,0,0,0,,{\frz-0.8}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}DEJAME{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}UN
+Dialogue: 0,0:00:28.77,0:00:29.03,Sub,,0,0,0,,{\frz-0.8}{\fscx100\fscy100\c&HFFFFFF&}DEJAME {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}UN{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:29.03,0:00:29.34,Sub,,0,0,0,,{\frz-2.0}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}MENSAJE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:29.34,0:00:29.43,Sub,,0,0,0,,{\frz-0.7}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}SI{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}QUERÉS
+Dialogue: 0,0:00:29.43,0:00:29.57,Sub,,0,0,0,,{\frz-0.7}{\fscx100\fscy100\c&HFFFFFF&}SI {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}QUERÉS{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:29.57,0:00:29.63,Sub,,0,0,0,,{\frz0.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}QUE{\fscx100\fscy100\t()} {\fscx100\fscy100\c&HFFFFFF&}TE
+Dialogue: 0,0:00:29.63,0:00:29.66,Sub,,0,0,0,,{\frz0.1}{\fscx100\fscy100\c&HFFFFFF&}QUE {\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}TE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:29.66,0:00:29.97,Sub,,0,0,0,,{\frz-1.2}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}ENSEÑE{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:29.97,0:00:30.18,Sub,,0,0,0,,{\frz1.1}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}CÓMO{\fscx100\fscy100\t()}
+Dialogue: 0,0:00:30.18,0:00:31.07,Sub,,0,0,0,,{\frz-1.8}{\fad(70,0)}{\fscx104\fscy104\t(0,90,\fscx120\fscy120)\c&H33DDFF&}INSTALARLO{\fscx100\fscy100\t()}

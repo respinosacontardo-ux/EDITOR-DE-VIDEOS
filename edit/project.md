@@ -39,3 +39,9 @@
 **Estrategia:** remezcla del mismo material con densidad visual alta (referencias IG del usuario no accesibles por red; se aplicó el lenguaje estándar de ese formato: captions grandes karaoke, iconos por frase, pops con rebote, flashes, barra de progreso).
 **Decisiones:** emojis a color vía fonts-noto-color-emoji + Pillow embedded_color (tiles 109px reescalados); easing ease_out_back para pops "que se noten"; flash radial blanco 5 frames reutilizado con split en 7 cortes; barra de progreso con color lavfi + overlay x=f(t); subtítulos 104px máx 2 palabras, activa amarilla \fscx116, keywords azules, jitter ±2° por frase; zooms punch 1.00/1.12. Overlays: gancho 0.12s, teléfono 2.45s, 24/7 6.55s, automático 10.15s, tachados 15.40/17.70, contador 23.70 (aterriza en "tres mil" 25.14), INFO 28.50.
 **Outstanding:** sin música de fondo (sin biblioteca libre en el entorno).
+
+## Sesión 3c — 2026-07-21 (REEL-9)
+
+**Estrategia:** upgrade del REEL-8 sobre el mismo material (el upload de WhatsApp era byte-idéntico, verificado por md5): transiciones whip (rampa de zoom +0.30 en 4 frames + boxblur habilitado por frame en cabeza/cola de cada segmento y en el corte de escena interno), flash reducido a 3 frames como acento, viñeta sutil.
+**Decisiones nuevas:** hook con borde glow pulsante (GaussianBlur sobre contorno) + subrayado sweep; teléfono v2 con cabecera, avatares de color, indicador de escribir con puntos animados y 3 mensajes; slot nuevo de gráfico de barras (5 barras ease-out-back, última amarilla) en 13.15-15.35 (hueco libre entre chip y tachados); emojis flotantes 🛋️😎 en "cualquier cosa"; subtítulos con \t(0,90) pop de 104→120 en la palabra activa.
+**Outstanding:** música de fondo sigue pendiente de que el usuario aporte pista.

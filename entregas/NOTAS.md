@@ -24,3 +24,5 @@ Tarjeta CTA de esta sesión: `edit/animations/slot_cta_reel6/` (PIL, script `mak
 Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, subtítulos .ass y scripts).
 
 | REEL-8-SISTEMA-CLIENTES-V2.mp4 | 36s | Versión recargada del REEL-7 estilo reels de tendencia: título gancho animado, teléfono con chats entrando en vivo, badge 24/7 giratorio, chip "TODO EN AUTOMÁTICO", tachados con sacudida y emojis, contador 1.000→3.000 con cohete y confeti, flashes blancos en cada corte, barra de progreso y captions grandes 1-2 palabras (activa en amarillo, keywords en azul) |
+
+| REEL-9-SISTEMA-CLIENTES-PRO.mp4 | 36s | Versión definitiva mejorada del mismo vídeo: transiciones whip-zoom con desenfoque de movimiento + flash suave, gancho con borde luminoso pulsante y subrayado animado, teléfono realista (header, avatares, indicador "escribiendo…", 3 chats entrando), badge 24/7, chip EN AUTOMÁTICO, gráfico de barras animado CLIENTES/DÍA, tachados con sacudida, contador 1.000→3.000 con confeti, burbuja INFO, viñeta, barra de progreso y captions con pop animado por palabra |
