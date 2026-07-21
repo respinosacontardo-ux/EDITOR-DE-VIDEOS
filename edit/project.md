@@ -16,3 +16,20 @@
 **Outstanding:**
 - Si el usuario tiene vídeos nuevos en su carpeta local "videos sin editar", hay que subirlos al repo para poder editarlos (el entorno remoto no ve el escritorio).
 - Posible mejora: personalizar la tarjeta CTA con @ o número de WhatsApp reales.
+
+## Sesión 3 — 2026-07-21
+
+**Estrategia:** Edición "tendencia 2026" del vídeo nuevo VIDEO-2026-07-18-02-04-17.mp4 (32.5s, 720×1280 @30, sin subtítulos incrustados): ritmo apretado, zoom dinámico, subtítulos karaoke y overlays sincronizados con palabras clave, tarjeta CTA final reutilizada (slot_cta_reel6).
+
+**Decisiones:**
+- Transcripción: whisper tiny TFLite parcheado (ventanas 0/21/23/24) + alineación palabra a palabra con aeneas (espeak DTW), re-anclada por bloques a los silencios reales (aeneas deriva ±0.3s; los silencios de librosa son la referencia).
+- aeneas requiere setuptools<60 + --no-build-isolation para compilar.
+- 6 segmentos con pausas recortadas (~1s total); zoompan por segmento con punch alternado 1.00/1.08 y salto de zoom en el frame del corte de escena interno (10.0s, detectado con scene>0.35) para no crear costura de audio.
+- Subtítulos: ASS propio PlayResY=1920, evento por palabra (palabra activa azul &HFF9E4A + fscx112), 2-3 palabras por línea, MarginV=470 (zona segura IG). Aplicados ÚLTIMOS en el grafo.
+- Overlays RGBA como secuencias PNG (overlay respeta alfa, sin códec intermedio), setpts PTS-STARTPTS+t/TB + enable between: tachados de PUBLICIDAD (out 15.45) y AGENCIA (17.70) aterrizando el trazo rojo en la palabra hablada, contador 1.000→3.000 aterrizando en "tres mil" (out 25.14), burbuja INFO en "Dejame un mensaje" (28.55).
+- ✕ del badge dibujado con líneas (Liberation Sans no tiene U+2715).
+- Loudnorm 2 pasadas -14 LUFS al final.
+
+**Reasoning log:** el corte interno del propio vídeo a los 10.0s permite el punch-zoom sin cortar el audio continuo (zoompan condicional por frame en un único segmento).
+
+**Outstanding:** música de fondo no añadida (sin biblioteca musical libre en el entorno); si el usuario quiere, puede aportar una pista.

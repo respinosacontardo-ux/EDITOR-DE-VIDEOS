@@ -1,0 +1,914 @@
+{
+ "fragments": [
+  {
+   "begin": "0.000",
+   "children": [],
+   "end": "0.440",
+   "id": "f000001",
+   "language": "spa",
+   "lines": [
+    "Mir\u00e1"
+   ]
+  },
+  {
+   "begin": "0.440",
+   "children": [],
+   "end": "0.720",
+   "id": "f000002",
+   "language": "spa",
+   "lines": [
+    "este"
+   ]
+  },
+  {
+   "begin": "0.720",
+   "children": [],
+   "end": "0.920",
+   "id": "f000003",
+   "language": "spa",
+   "lines": [
+    "es"
+   ]
+  },
+  {
+   "begin": "0.920",
+   "children": [],
+   "end": "1.040",
+   "id": "f000004",
+   "language": "spa",
+   "lines": [
+    "el"
+   ]
+  },
+  {
+   "begin": "1.040",
+   "children": [],
+   "end": "1.600",
+   "id": "f000005",
+   "language": "spa",
+   "lines": [
+    "sistema"
+   ]
+  },
+  {
+   "begin": "1.600",
+   "children": [],
+   "end": "1.680",
+   "id": "f000006",
+   "language": "spa",
+   "lines": [
+    "que"
+   ]
+  },
+  {
+   "begin": "1.680",
+   "children": [],
+   "end": "1.960",
+   "id": "f000007",
+   "language": "spa",
+   "lines": [
+    "cre\u00e9"
+   ]
+  },
+  {
+   "begin": "1.960",
+   "children": [],
+   "end": "2.360",
+   "id": "f000008",
+   "language": "spa",
+   "lines": [
+    "para"
+   ]
+  },
+  {
+   "begin": "2.360",
+   "children": [],
+   "end": "2.800",
+   "id": "f000009",
+   "language": "spa",
+   "lines": [
+    "contactar"
+   ]
+  },
+  {
+   "begin": "2.800",
+   "children": [],
+   "end": "3.280",
+   "id": "f000010",
+   "language": "spa",
+   "lines": [
+    "clientes"
+   ]
+  },
+  {
+   "begin": "3.280",
+   "children": [],
+   "end": "3.640",
+   "id": "f000011",
+   "language": "spa",
+   "lines": [
+    "todo"
+   ]
+  },
+  {
+   "begin": "3.640",
+   "children": [],
+   "end": "3.680",
+   "id": "f000012",
+   "language": "spa",
+   "lines": [
+    "el"
+   ]
+  },
+  {
+   "begin": "3.680",
+   "children": [],
+   "end": "4.360",
+   "id": "f000013",
+   "language": "spa",
+   "lines": [
+    "d\u00eda"
+   ]
+  },
+  {
+   "begin": "4.360",
+   "children": [],
+   "end": "4.800",
+   "id": "f000014",
+   "language": "spa",
+   "lines": [
+    "mientras"
+   ]
+  },
+  {
+   "begin": "4.800",
+   "children": [],
+   "end": "5.160",
+   "id": "f000015",
+   "language": "spa",
+   "lines": [
+    "est\u00e1s"
+   ]
+  },
+  {
+   "begin": "5.160",
+   "children": [],
+   "end": "5.520",
+   "id": "f000016",
+   "language": "spa",
+   "lines": [
+    "haciendo"
+   ]
+  },
+  {
+   "begin": "5.520",
+   "children": [],
+   "end": "5.960",
+   "id": "f000017",
+   "language": "spa",
+   "lines": [
+    "cualquier"
+   ]
+  },
+  {
+   "begin": "5.960",
+   "children": [],
+   "end": "6.760",
+   "id": "f000018",
+   "language": "spa",
+   "lines": [
+    "cosa"
+   ]
+  },
+  {
+   "begin": "6.760",
+   "children": [],
+   "end": "7.080",
+   "id": "f000019",
+   "language": "spa",
+   "lines": [
+    "Tengo"
+   ]
+  },
+  {
+   "begin": "7.080",
+   "children": [],
+   "end": "7.440",
+   "id": "f000020",
+   "language": "spa",
+   "lines": [
+    "esta"
+   ]
+  },
+  {
+   "begin": "7.440",
+   "children": [],
+   "end": "7.880",
+   "id": "f000021",
+   "language": "spa",
+   "lines": [
+    "herramienta"
+   ]
+  },
+  {
+   "begin": "7.880",
+   "children": [],
+   "end": "7.920",
+   "id": "f000022",
+   "language": "spa",
+   "lines": [
+    "que"
+   ]
+  },
+  {
+   "begin": "7.920",
+   "children": [],
+   "end": "7.920",
+   "id": "f000023",
+   "language": "spa",
+   "lines": [
+    "est\u00e1"
+   ]
+  },
+  {
+   "begin": "7.920",
+   "children": [],
+   "end": "8.560",
+   "id": "f000024",
+   "language": "spa",
+   "lines": [
+    "trabajando"
+   ]
+  },
+  {
+   "begin": "8.560",
+   "children": [],
+   "end": "8.960",
+   "id": "f000025",
+   "language": "spa",
+   "lines": [
+    "para"
+   ]
+  },
+  {
+   "begin": "8.960",
+   "children": [],
+   "end": "9.000",
+   "id": "f000026",
+   "language": "spa",
+   "lines": [
+    "m\u00ed"
+   ]
+  },
+  {
+   "begin": "9.000",
+   "children": [],
+   "end": "9.320",
+   "id": "f000027",
+   "language": "spa",
+   "lines": [
+    "todo"
+   ]
+  },
+  {
+   "begin": "9.320",
+   "children": [],
+   "end": "9.360",
+   "id": "f000028",
+   "language": "spa",
+   "lines": [
+    "el"
+   ]
+  },
+  {
+   "begin": "9.360",
+   "children": [],
+   "end": "9.520",
+   "id": "f000029",
+   "language": "spa",
+   "lines": [
+    "d\u00eda"
+   ]
+  },
+  {
+   "begin": "9.520",
+   "children": [],
+   "end": "9.640",
+   "id": "f000030",
+   "language": "spa",
+   "lines": [
+    "mir\u00e1"
+   ]
+  },
+  {
+   "begin": "9.640",
+   "children": [],
+   "end": "9.920",
+   "id": "f000031",
+   "language": "spa",
+   "lines": [
+    "Ac\u00e1"
+   ]
+  },
+  {
+   "begin": "9.920",
+   "children": [],
+   "end": "10.000",
+   "id": "f000032",
+   "language": "spa",
+   "lines": [
+    "te"
+   ]
+  },
+  {
+   "begin": "10.000",
+   "children": [],
+   "end": "10.160",
+   "id": "f000033",
+   "language": "spa",
+   "lines": [
+    "estoy"
+   ]
+  },
+  {
+   "begin": "10.160",
+   "children": [],
+   "end": "10.560",
+   "id": "f000034",
+   "language": "spa",
+   "lines": [
+    "mostrando"
+   ]
+  },
+  {
+   "begin": "10.560",
+   "children": [],
+   "end": "10.760",
+   "id": "f000035",
+   "language": "spa",
+   "lines": [
+    "c\u00f3mo"
+   ]
+  },
+  {
+   "begin": "10.760",
+   "children": [],
+   "end": "11.240",
+   "id": "f000036",
+   "language": "spa",
+   "lines": [
+    "con"
+   ]
+  },
+  {
+   "begin": "11.240",
+   "children": [],
+   "end": "11.680",
+   "id": "f000037",
+   "language": "spa",
+   "lines": [
+    "esta"
+   ]
+  },
+  {
+   "begin": "11.680",
+   "children": [],
+   "end": "12.480",
+   "id": "f000038",
+   "language": "spa",
+   "lines": [
+    "herramienta"
+   ]
+  },
+  {
+   "begin": "12.480",
+   "children": [],
+   "end": "12.640",
+   "id": "f000039",
+   "language": "spa",
+   "lines": [
+    "puedo"
+   ]
+  },
+  {
+   "begin": "12.640",
+   "children": [],
+   "end": "13.120",
+   "id": "f000040",
+   "language": "spa",
+   "lines": [
+    "conseguir"
+   ]
+  },
+  {
+   "begin": "13.120",
+   "children": [],
+   "end": "13.600",
+   "id": "f000041",
+   "language": "spa",
+   "lines": [
+    "clientes"
+   ]
+  },
+  {
+   "begin": "13.600",
+   "children": [],
+   "end": "14.000",
+   "id": "f000042",
+   "language": "spa",
+   "lines": [
+    "todo"
+   ]
+  },
+  {
+   "begin": "14.000",
+   "children": [],
+   "end": "14.320",
+   "id": "f000043",
+   "language": "spa",
+   "lines": [
+    "el"
+   ]
+  },
+  {
+   "begin": "14.320",
+   "children": [],
+   "end": "14.320",
+   "id": "f000044",
+   "language": "spa",
+   "lines": [
+    "d\u00eda"
+   ]
+  },
+  {
+   "begin": "14.320",
+   "children": [],
+   "end": "14.360",
+   "id": "f000045",
+   "language": "spa",
+   "lines": [
+    "en"
+   ]
+  },
+  {
+   "begin": "14.360",
+   "children": [],
+   "end": "14.640",
+   "id": "f000046",
+   "language": "spa",
+   "lines": [
+    "autom\u00e1tico"
+   ]
+  },
+  {
+   "begin": "14.640",
+   "children": [],
+   "end": "14.840",
+   "id": "f000047",
+   "language": "spa",
+   "lines": [
+    "sin"
+   ]
+  },
+  {
+   "begin": "14.840",
+   "children": [],
+   "end": "15.600",
+   "id": "f000048",
+   "language": "spa",
+   "lines": [
+    "necesidad"
+   ]
+  },
+  {
+   "begin": "15.600",
+   "children": [],
+   "end": "15.880",
+   "id": "f000049",
+   "language": "spa",
+   "lines": [
+    "de"
+   ]
+  },
+  {
+   "begin": "15.880",
+   "children": [],
+   "end": "16.080",
+   "id": "f000050",
+   "language": "spa",
+   "lines": [
+    "pagar"
+   ]
+  },
+  {
+   "begin": "16.080",
+   "children": [],
+   "end": "16.880",
+   "id": "f000051",
+   "language": "spa",
+   "lines": [
+    "publicidad"
+   ]
+  },
+  {
+   "begin": "16.880",
+   "children": [],
+   "end": "16.920",
+   "id": "f000052",
+   "language": "spa",
+   "lines": [
+    "ni"
+   ]
+  },
+  {
+   "begin": "16.920",
+   "children": [],
+   "end": "17.680",
+   "id": "f000053",
+   "language": "spa",
+   "lines": [
+    "contratar"
+   ]
+  },
+  {
+   "begin": "17.680",
+   "children": [],
+   "end": "18.120",
+   "id": "f000054",
+   "language": "spa",
+   "lines": [
+    "una"
+   ]
+  },
+  {
+   "begin": "18.120",
+   "children": [],
+   "end": "18.800",
+   "id": "f000055",
+   "language": "spa",
+   "lines": [
+    "agencia"
+   ]
+  },
+  {
+   "begin": "18.800",
+   "children": [],
+   "end": "19.000",
+   "id": "f000056",
+   "language": "spa",
+   "lines": [
+    "de"
+   ]
+  },
+  {
+   "begin": "19.000",
+   "children": [],
+   "end": "19.400",
+   "id": "f000057",
+   "language": "spa",
+   "lines": [
+    "marketing"
+   ]
+  },
+  {
+   "begin": "19.400",
+   "children": [],
+   "end": "19.760",
+   "id": "f000058",
+   "language": "spa",
+   "lines": [
+    "para"
+   ]
+  },
+  {
+   "begin": "19.760",
+   "children": [],
+   "end": "19.760",
+   "id": "f000059",
+   "language": "spa",
+   "lines": [
+    "que"
+   ]
+  },
+  {
+   "begin": "19.760",
+   "children": [],
+   "end": "20.000",
+   "id": "f000060",
+   "language": "spa",
+   "lines": [
+    "me"
+   ]
+  },
+  {
+   "begin": "20.000",
+   "children": [],
+   "end": "20.280",
+   "id": "f000061",
+   "language": "spa",
+   "lines": [
+    "haga"
+   ]
+  },
+  {
+   "begin": "20.280",
+   "children": [],
+   "end": "20.680",
+   "id": "f000062",
+   "language": "spa",
+   "lines": [
+    "este"
+   ]
+  },
+  {
+   "begin": "20.680",
+   "children": [],
+   "end": "20.840",
+   "id": "f000063",
+   "language": "spa",
+   "lines": [
+    "trabajo"
+   ]
+  },
+  {
+   "begin": "20.840",
+   "children": [],
+   "end": "21.680",
+   "id": "f000064",
+   "language": "spa",
+   "lines": [
+    "Solamente"
+   ]
+  },
+  {
+   "begin": "21.680",
+   "children": [],
+   "end": "21.720",
+   "id": "f000065",
+   "language": "spa",
+   "lines": [
+    "con"
+   ]
+  },
+  {
+   "begin": "21.720",
+   "children": [],
+   "end": "22.040",
+   "id": "f000066",
+   "language": "spa",
+   "lines": [
+    "este"
+   ]
+  },
+  {
+   "begin": "22.040",
+   "children": [],
+   "end": "22.480",
+   "id": "f000067",
+   "language": "spa",
+   "lines": [
+    "software"
+   ]
+  },
+  {
+   "begin": "22.480",
+   "children": [],
+   "end": "23.360",
+   "id": "f000068",
+   "language": "spa",
+   "lines": [
+    "pod\u00e9s"
+   ]
+  },
+  {
+   "begin": "23.360",
+   "children": [],
+   "end": "23.560",
+   "id": "f000069",
+   "language": "spa",
+   "lines": [
+    "estar"
+   ]
+  },
+  {
+   "begin": "23.560",
+   "children": [],
+   "end": "24.480",
+   "id": "f000070",
+   "language": "spa",
+   "lines": [
+    "contactando"
+   ]
+  },
+  {
+   "begin": "24.480",
+   "children": [],
+   "end": "24.960",
+   "id": "f000071",
+   "language": "spa",
+   "lines": [
+    "de"
+   ]
+  },
+  {
+   "begin": "24.960",
+   "children": [],
+   "end": "25.400",
+   "id": "f000072",
+   "language": "spa",
+   "lines": [
+    "mil"
+   ]
+  },
+  {
+   "begin": "25.400",
+   "children": [],
+   "end": "25.720",
+   "id": "f000073",
+   "language": "spa",
+   "lines": [
+    "hasta"
+   ]
+  },
+  {
+   "begin": "25.720",
+   "children": [],
+   "end": "26.400",
+   "id": "f000074",
+   "language": "spa",
+   "lines": [
+    "tres mil"
+   ]
+  },
+  {
+   "begin": "26.400",
+   "children": [],
+   "end": "26.920",
+   "id": "f000075",
+   "language": "spa",
+   "lines": [
+    "clientes"
+   ]
+  },
+  {
+   "begin": "26.920",
+   "children": [],
+   "end": "27.240",
+   "id": "f000076",
+   "language": "spa",
+   "lines": [
+    "por"
+   ]
+  },
+  {
+   "begin": "27.240",
+   "children": [],
+   "end": "27.600",
+   "id": "f000077",
+   "language": "spa",
+   "lines": [
+    "d\u00eda"
+   ]
+  },
+  {
+   "begin": "27.600",
+   "children": [],
+   "end": "28.320",
+   "id": "f000078",
+   "language": "spa",
+   "lines": [
+    "interesados"
+   ]
+  },
+  {
+   "begin": "28.320",
+   "children": [],
+   "end": "28.320",
+   "id": "f000079",
+   "language": "spa",
+   "lines": [
+    "en"
+   ]
+  },
+  {
+   "begin": "28.320",
+   "children": [],
+   "end": "28.320",
+   "id": "f000080",
+   "language": "spa",
+   "lines": [
+    "tu"
+   ]
+  },
+  {
+   "begin": "28.320",
+   "children": [],
+   "end": "29.080",
+   "id": "f000081",
+   "language": "spa",
+   "lines": [
+    "negocio"
+   ]
+  },
+  {
+   "begin": "29.080",
+   "children": [],
+   "end": "29.440",
+   "id": "f000082",
+   "language": "spa",
+   "lines": [
+    "Dejame"
+   ]
+  },
+  {
+   "begin": "29.440",
+   "children": [],
+   "end": "29.800",
+   "id": "f000083",
+   "language": "spa",
+   "lines": [
+    "un"
+   ]
+  },
+  {
+   "begin": "29.800",
+   "children": [],
+   "end": "30.240",
+   "id": "f000084",
+   "language": "spa",
+   "lines": [
+    "mensaje"
+   ]
+  },
+  {
+   "begin": "30.240",
+   "children": [],
+   "end": "30.360",
+   "id": "f000085",
+   "language": "spa",
+   "lines": [
+    "si"
+   ]
+  },
+  {
+   "begin": "30.360",
+   "children": [],
+   "end": "30.560",
+   "id": "f000086",
+   "language": "spa",
+   "lines": [
+    "quer\u00e9s"
+   ]
+  },
+  {
+   "begin": "30.560",
+   "children": [],
+   "end": "30.640",
+   "id": "f000087",
+   "language": "spa",
+   "lines": [
+    "que"
+   ]
+  },
+  {
+   "begin": "30.640",
+   "children": [],
+   "end": "30.680",
+   "id": "f000088",
+   "language": "spa",
+   "lines": [
+    "te"
+   ]
+  },
+  {
+   "begin": "30.680",
+   "children": [],
+   "end": "31.120",
+   "id": "f000089",
+   "language": "spa",
+   "lines": [
+    "ense\u00f1e"
+   ]
+  },
+  {
+   "begin": "31.120",
+   "children": [],
+   "end": "31.400",
+   "id": "f000090",
+   "language": "spa",
+   "lines": [
+    "c\u00f3mo"
+   ]
+  },
+  {
+   "begin": "31.400",
+   "children": [],
+   "end": "32.480",
+   "id": "f000091",
+   "language": "spa",
+   "lines": [
+    "instalarlo"
+   ]
+  }
+ ]
+}

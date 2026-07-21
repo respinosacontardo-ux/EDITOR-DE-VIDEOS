@@ -18,3 +18,7 @@ Para cambiar el texto o poner un @ / WhatsApp concreto: editar
 | REEL-6-ANUNCIO-LICENCIA.mp4 | 43s | Anuncio combinado nuevo: gancho + demo empleado (V3) → dato 1000-3000 mensajes/día (V1) → ángulo "sin membresía mensual, licencia por un año" (V2, no usado en REEL-1) → CTA + tarjeta final. 1080×1920 30fps, -14 LUFS |
 
 Tarjeta CTA de esta sesión: `edit/animations/slot_cta_reel6/` (PIL, script `make_card.py` incluido para regenerarla con otro texto).
+
+| REEL-7-SISTEMA-CLIENTES.mp4 | 36s | Edición pro estilo tendencia del vídeo nuevo (18-07): pausas recortadas, punch-zooms alternados (incl. en el corte de escena interno a los 10s), subtítulos karaoke palabra a palabra (resaltado azul), tarjetas animadas sincronizadas con la voz (PUBLICIDAD ✕, AGENCIA DE MARKETING ✕, contador 1.000→3.000 clientes/día, burbuja INFO) + tarjeta CTA final. 1080×1920 30fps, -14 LUFS |
+
+Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, subtítulos .ass y scripts).
