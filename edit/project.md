@@ -45,3 +45,14 @@
 **Estrategia:** upgrade del REEL-8 sobre el mismo material (el upload de WhatsApp era byte-idéntico, verificado por md5): transiciones whip (rampa de zoom +0.30 en 4 frames + boxblur habilitado por frame en cabeza/cola de cada segmento y en el corte de escena interno), flash reducido a 3 frames como acento, viñeta sutil.
 **Decisiones nuevas:** hook con borde glow pulsante (GaussianBlur sobre contorno) + subrayado sweep; teléfono v2 con cabecera, avatares de color, indicador de escribir con puntos animados y 3 mensajes; slot nuevo de gráfico de barras (5 barras ease-out-back, última amarilla) en 13.15-15.35 (hueco libre entre chip y tachados); emojis flotantes 🛋️😎 en "cualquier cosa"; subtítulos con \t(0,90) pop de 104→120 en la palabra activa.
 **Outstanding:** música de fondo sigue pendiente de que el usuario aporte pista.
+
+## Sesión 4 — 2026-07-21 (PRESENTACION con Remotion)
+
+**Estrategia:** video presentación 1080×1920@30 de 57s (1700 frames) hecho íntegramente con Remotion 4 (edit/animations/slot_presentacion), estética clonada del repo respinosacontardo-ux/web (añadido a la sesión vía add_repo porque github.io está bloqueado): tokens de styles.css, textos y SVGs de index.html.
+**Decisiones:**
+- Secciones por frame absoluto: intro 0-150, stats 150-255, ventajas 255-435, softwares 435-1035 (5×120), demo 1035-1455, CTA 1455-1700. Springs de remotion (damping 12-16).
+- Fondo galaxia: 130 estrellas deterministas (PRNG mulberry32 seed 42) + glows radiales naranja/cian, igual que el canvas del sitio.
+- Demo: clip 8.6-22.4s del VIDEO-2026-07-17-22-25-15 (versión HQ del pitch "1.000-3.000 mensajes"), re-codificado a 30fps CFR (WhatsApp 60fps daba frames negros en OffthreadVideo) y ENVUELTO EN <Sequence from={S5} layout="none"> — sin Sequence, OffthreadVideo usa el frame absoluto de la composición y buscaba el segundo 47 de un video de 43s → negro.
+- Audio: cama ambiental sintetizada (aevalsrc, drone 55/110/164.8/220 Hz con trémolos lentos + lowpass 500) + whoosh (anoisesrc rosa filtrado) en cada cambio de sección; la cama baja a 0.35 durante la demo; loudnorm -14 al final.
+- Fuente: Liberation Sans (metric-compatible con la pila Arial del sitio).
+**Outstanding:** el número de WhatsApp aparece como texto (wa.me/…); si el usuario quiere QR, se puede generar.
