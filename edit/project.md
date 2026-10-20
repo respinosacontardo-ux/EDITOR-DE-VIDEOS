@@ -86,3 +86,12 @@
 - Música: pista ORIGINAL sintetizada (edit/agendas/make_music_ag.py), A mayor I-V-vi-IV, 100 BPM, arpegio pluck brillante + pad airoso + sub + percusión suave. 100% libre de derechos.
 - Barra de progreso rosa abajo; loudnorm 2 pasadas -14 LUFS; escalado 1080×1920.
 **Outstanding:** no se pudo verificar colores/tipografía/logo reales de la web (bloqueada). Si el usuario pasa su paleta/logo o desbloquea la tienda, se puede ajustar a la identidad exacta. Variantes 1:1 / 4:5 disponibles a pedido.
+
+## Sesión 8 — 2026-10-20 (AGENDAS IMPRIMIBLES: quitar texto azul + guion voz)
+**Pedido:** sacar todo el texto azul del video de agendas 2027 imprimibles y dar un guion para voz chilena (ElevenLabs) para ponerle voz en off.
+**Decisiones:**
+- Texto azul = overlay fijo (caption) abajo-centro: "Imprimible $3000 / Totalmente editable + pdf ya para imprimir / Y las portadas". Posición estática verificada en t=2/5/30/55/57 → x44-533, y722-823.
+- Caja opaca (fondo irrecuperable). Se usó ffmpeg delogo (x=38 y=716 w=502 h=114) que interpola desde los bordes; resultado limpio (banda de desenfoque suave que se mezcla con el motion-blur del video), mucho mejor que tapar con un recuadro. El "02 ENERO" azul impreso de la agenda NO es overlay y se conserva.
+- Render 1080x1920, grade sutil, audio original conservado (se reemplaza/duckea al recibir la voz).
+- Guion de voz en español chileno (~58s) con modismos naturales (po, cachái, al tiro, regia, te tinca), versión limpia + timecodes + ajustes ElevenLabs. Precios: $3000 ARG / $100 UYU.
+**Outstanding:** ElevenLabs no es accesible desde el entorno (API de pago/bloqueada). El usuario genera el audio y lo envía; luego se sincroniza + mezcla + loudnorm -14. Opcional: música libre de derechos bajo la voz.

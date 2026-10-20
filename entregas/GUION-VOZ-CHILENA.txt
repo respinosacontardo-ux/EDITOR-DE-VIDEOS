@@ -1,0 +1,40 @@
+==========================================================
+GUION — VOZ EN OFF CHILENA (para ElevenLabs)
+Video: Agendas 2027 imprimibles  ·  Duración: ~58 s
+==========================================================
+
+-------- VERSIÓN LIMPIA (pegar tal cual en ElevenLabs) --------
+
+¿Ya tenís cómo organizar tu 2027? Porque mira lo que te traigo.
+Estas son las agendas 2027 imprimibles… y lo mejor de todo: son totalmente editables. O sea, las personalizái a tu pinta antes de imprimir.
+Vienen en PDF, listas pa' imprimir las veces que querái. Fíjate: calendarios mes a mes, hojas pa' tus notas, pa' tus metas, tus gastos… y unas portadas preciosas pa' cada mes.
+Una sola compra, y la usái todo el año, las veces que se te antoje.
+¿Y sabís lo mejor? Está a solo tres mil pesos argentinos… o cien pesos uruguayos.
+Así que ya po, no lo pensís tanto. Escríbeme y te la mando al tiro, pa' que arranqués el 2027 ordenada y regia.
+
+-------- VERSIÓN CON TIEMPOS (para calzar con el video) --------
+
+[00:00–00:05]  ¿Ya tenís cómo organizar tu 2027? Porque mira lo que te traigo.
+[00:05–00:14]  Estas son las agendas 2027 imprimibles… y lo mejor: son totalmente editables. Las personalizái a tu pinta antes de imprimir.
+[00:14–00:27]  Vienen en PDF, listas pa' imprimir las veces que querái. Fíjate: calendarios mes a mes, hojas pa' tus notas, tus metas, tus gastos… y portadas preciosas pa' cada mes.
+[00:27–00:38]  Una sola compra, y la usái todo el año, las veces que se te antoje.
+[00:38–00:48]  ¿Y sabís lo mejor? Está a solo tres mil pesos argentinos… o cien pesos uruguayos.
+[00:48–00:58]  Así que ya po, no lo pensís tanto. Escríbeme y te la mando al tiro, pa' que arranqués el 2027 ordenada y regia.
+
+==========================================================
+AJUSTES RECOMENDADOS EN ELEVENLABS
+==========================================================
+• Modelo: Eleven Multilingual v2 (mejor acento en español).
+• Voz: elegí una voz de la biblioteca marcada como Español / Latam
+  (buscá "Chile" o "Chilean" en Voice Library; si no hay chilena,
+  una voz latina neutra femenina joven funciona y suena cercana).
+• Stability: 40–50   ·   Similarity: 75   ·   Style: 10–20
+  (stability baja = más expresiva/natural, ideal para venta).
+• Speed: normal (si queda largo para 58s, subí a 1.05–1.1).
+• Los "…" son pausas: ayudan a que calce con los cortes del video.
+
+Cuando tengas el audio (MP3 o WAV), mándamelo y yo:
+  - Lo sincronizo encima del video sin texto azul,
+  - Bajo/remplazo la música para que la voz se escuche clara,
+  - Normalizo a -14 LUFS (estándar de Meta) y te lo dejo listo.
+==========================================================
