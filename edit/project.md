@@ -76,3 +76,13 @@
 - Video: escalado a 1080×1920 (9:16 exacto, el fuente ya era 0.5625) con lanczos, grade sutil (contrast 1.05, saturation 1.09, brightness +0.012, unsharp 0.3) para que el pastel resalte sin romper la estética suave.
 - Audio: música recortada a la duración del video con fade in 0.4s / fade out 0.8s; loudnorm 2 pasadas a -14 LUFS (Meta/IG/TikTok).
 **Outstanding:** si el usuario quiere, se puede añadir tarjeta CTA final con marca/WhatsApp, o variantes 1:1 y 4:5 para el feed de Meta.
+
+## Sesión 7 — 2026-10-20 (AGENDAS-2027-META)
+
+**Estrategia:** anuncio Meta ≤30s del video de Agendas Digitales 2027 (maestrodelaforja). La tienda Shopify estaba BLOQUEADA por la política de red del entorno (myshopify.com rechazado por el proxy; además la URL de preview requiere login), así que la info de producto se tomó del caption del propio usuario (Vision Board, metas, plan de ahorros, book journal, digital journaling) + lo visible en el video. Datos confirmados por el usuario: CTA sin nombre de marca, precio $6.990, NO nombrar apps (GoodNotes/Notability).
+**Decisiones:**
+- Corte 57.4s→28.7s: 9 segmentos seleccionados por variedad visual (intro, vista anual, vision board, rueda/trackers, portadas febrero+mayo, aura agosto+noviembre, calendario, journaling, contraportada AGENDA 2027). Mapa de tiempos vía filmstrip con timestamps.
+- Overlays: tarjetas PIL (blanco 94%, eyebrow rosa, título plum, barra/pill degradada rosa→naranja tomada de las auras del video), animación slide+fade con ease_out_back, una por sección sincronizada a los offsets de concat. Legibles sobre fondos variados (sombra + card opaca).
+- Música: pista ORIGINAL sintetizada (edit/agendas/make_music_ag.py), A mayor I-V-vi-IV, 100 BPM, arpegio pluck brillante + pad airoso + sub + percusión suave. 100% libre de derechos.
+- Barra de progreso rosa abajo; loudnorm 2 pasadas -14 LUFS; escalado 1080×1920.
+**Outstanding:** no se pudo verificar colores/tipografía/logo reales de la web (bloqueada). Si el usuario pasa su paleta/logo o desbloquea la tienda, se puede ajustar a la identidad exacta. Variantes 1:1 / 4:5 disponibles a pedido.
