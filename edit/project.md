@@ -67,3 +67,12 @@
 - Átomos de marca exportados desde Presentacion.tsx (Galaxy, LogoMark, Wordmark, Badge, PIcon) y reutilizados.
 - Audio: voz + bed 0.15 (0.55 en outro) + whoosh en cada cambio de sección; loudnorm -14 post-render.
 **Outstanding:** para Meta Ads conviene también una variante 1:1 y una 16:9; se pueden derivar de la misma composición cambiando width/height y ajustando layouts.
+
+## Sesión 6 — 2026-10-20 (PLANNER-2027-META)
+
+**Estrategia:** adaptar para Meta Ads el video de producto del Planner mensual 2027 (imprimible A5). El video (576×1024, 10.6s) traía el audio original de la red social — una canción con derechos que en Meta provoca bloqueo/silenciado del anuncio. Se reemplaza por música libre de derechos.
+**Decisiones:**
+- Música: pista lo-fi ORIGINAL sintetizada con numpy (edit/planner/make_music.py), 82 BPM, progresión Cmaj7-Am7-Fmaj7-G, pad cálido + melodía music-box pentatónica + sub-bass + percusión suave + crackle de vinilo. 100% libre de derechos (generada, no descargada; la red del entorno solo permite repos de paquetes).
+- Video: escalado a 1080×1920 (9:16 exacto, el fuente ya era 0.5625) con lanczos, grade sutil (contrast 1.05, saturation 1.09, brightness +0.012, unsharp 0.3) para que el pastel resalte sin romper la estética suave.
+- Audio: música recortada a la duración del video con fade in 0.4s / fade out 0.8s; loudnorm 2 pasadas a -14 LUFS (Meta/IG/TikTok).
+**Outstanding:** si el usuario quiere, se puede añadir tarjeta CTA final con marca/WhatsApp, o variantes 1:1 y 4:5 para el feed de Meta.
