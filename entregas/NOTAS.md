@@ -39,3 +39,5 @@ Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, sub
 | GUION-VOZ-CHILENA.txt | - | Guion de voz en off en español chileno (~58s) para generar en ElevenLabs, con versión limpia, versión con timecodes y ajustes recomendados. |
 
 | PROMO-PAPELIA-MUSICA-LIBRE.mp4 | 20s | Promo "Super Pack Agendas 2027" (papeliadigital.store) con la MÚSICA CAMBIADA por una pista libre de derechos ORIGINAL (bright/bouncy, 112 BPM). Se conservan todos los textos y la marca del video. Escalado a 1080x1350 (4:5 feed), grade sutil, -14 LUFS. Audio original (con derechos) reemplazado. |
+
+| PLANNER-2026-VOZ-SUBS.mp4 | 45s | Video "2026 Planner" con la voz de ElevenLabs conservada y los SUBTÍTULOS VIEJOS REEMPLAZADOS por unos nuevos sincronizados a esa voz (karaoke palabra activa en morado sobre tarjeta opaca que tapa los viejos). Transcripción con Whisper local + alineación palabra a palabra con aeneas. Escalado 1080x1920, voz a -14 LUFS. |

@@ -100,3 +100,12 @@
 **Pedido:** cambiar la música del promo de papeliadigital.store (Super Pack Agendas 2027) por una sin derechos de autor.
 **Decisiones:** audio original (canción con copyright) reemplazado por pista ORIGINAL sintetizada (edit/promo_papelia/make_music_promo.py): C mayor I-V-vi-IV, 112 BPM, arp brillante + pad + bajo con bounce + kick/clap/hats, 19.6s, fade in/out. 100% libre de derechos (generada localmente). Video escalado 360x450→1080x1350 (4:5) lanczos, grade sutil; se conservan todos los overlays/marca del video. loudnorm -14 LUFS. Fuente 360x450 muy baja → upscale 3x (queda algo suave pero mejor que 360px para Meta).
 **Outstanding:** si quieren, variante 9:16 (1080x1920) para Reels/Stories, u otro estilo de música (más chill / más EDM).
+
+## Sesión 10 — 2026-10-22 (Planner 2026: cambiar subtítulos a la voz nueva)
+**Pedido:** el usuario subió un video (360x640, 44.5s) con la voz NUEVA de ElevenLabs pero con subtítulos VIEJOS que no coinciden. Confirmó: destino = ese mismo video; subtítulos nuevos sincronizados a la voz.
+**Decisiones:**
+- Transcripción de la voz: Whisper tiny multilingüe TFLite (re-descargado vía proxy.golang.org, parcheado supress translate/notimestamps). Guion reconstruido limpio (~124 palabras).
+- Timing palabra a palabra: aeneas (espeak DTW) sobre el guion limpio -> alignV.json.
+- Subtítulos nuevos: secuencia PNG RGBA (edit/voz_subs/subs_render.py) con TARJETA OPACA (plum #1A1224, borde morado) centrada en y≈1430 cubriendo la banda de los subtítulos viejos (nativo y≈435-520 -> 1080x1920 y≈1305-1560); karaoke con palabra activa en caja morada #9663F6, texto blanco MAYÚSCULAS, 2-3 palabras por frase, tarjeta persistente durante toda la voz para garantizar que no asomen los viejos.
+- Composición: escala 360x640->1080x1920 (9:16), overlay subs, voz conservada y loudnorm 2 pasadas -14 LUFS (venía a -25).
+**Outstanding:** el texto de marca "Test my 2026 Planner / NEW YORK" arriba es del propio video y se conserva. Si quieren, se puede añadir música libre de derechos por debajo de la voz.
