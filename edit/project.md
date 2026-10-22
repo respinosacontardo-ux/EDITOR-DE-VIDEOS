@@ -109,3 +109,11 @@
 - Subtítulos nuevos: secuencia PNG RGBA (edit/voz_subs/subs_render.py) con TARJETA OPACA (plum #1A1224, borde morado) centrada en y≈1430 cubriendo la banda de los subtítulos viejos (nativo y≈435-520 -> 1080x1920 y≈1305-1560); karaoke con palabra activa en caja morada #9663F6, texto blanco MAYÚSCULAS, 2-3 palabras por frase, tarjeta persistente durante toda la voz para garantizar que no asomen los viejos.
 - Composición: escala 360x640->1080x1920 (9:16), overlay subs, voz conservada y loudnorm 2 pasadas -14 LUFS (venía a -25).
 **Outstanding:** el texto de marca "Test my 2026 Planner / NEW YORK" arriba es del propio video y se conserva. Si quieren, se puede añadir música libre de derechos por debajo de la voz.
+
+## Sesión 10b — 2026-10-22 (Planner 2026: voz Marcela ElevenLabs correcta)
+**Corrección:** la primera versión usó por error el audio que ya traía el video. El usuario subió el MP3 real de ElevenLabs (Marcela - Chilean Sales, 48.85s), con guion DISTINTO (hook "¿Cuántas veces empezaste el año...", tracker 90 días, 12 presupuestos, "6.990 pesos, menos que dos cafés", "entra al link y empieza hoy").
+**Decisiones:**
+- Voz 48.85s > video 44.54s → video ralentizado setpts*1.0968 para calzar exacto (b-roll suave, imperceptible).
+- Re-transcripción (Whisper) + guion limpio (140 palabras, año corregido 2026) + aeneas word-level (alignM.json).
+- Subs nuevos (edit/voz_subs/subs_renderM.py) misma tarjeta opaca que tapa los viejos; karaoke morado.
+- Audio = MP3 Marcela, loudnorm -14. Se reemplaza PLANNER-2026-VOZ-SUBS.mp4 (versión con audio equivocado, eliminada).

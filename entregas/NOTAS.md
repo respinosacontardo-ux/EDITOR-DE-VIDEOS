@@ -40,4 +40,5 @@ Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, sub
 
 | PROMO-PAPELIA-MUSICA-LIBRE.mp4 | 20s | Promo "Super Pack Agendas 2027" (papeliadigital.store) con la MÚSICA CAMBIADA por una pista libre de derechos ORIGINAL (bright/bouncy, 112 BPM). Se conservan todos los textos y la marca del video. Escalado a 1080x1350 (4:5 feed), grade sutil, -14 LUFS. Audio original (con derechos) reemplazado. |
 
-| PLANNER-2026-VOZ-SUBS.mp4 | 45s | Video "2026 Planner" con la voz de ElevenLabs conservada y los SUBTÍTULOS VIEJOS REEMPLAZADOS por unos nuevos sincronizados a esa voz (karaoke palabra activa en morado sobre tarjeta opaca que tapa los viejos). Transcripción con Whisper local + alineación palabra a palabra con aeneas. Escalado 1080x1920, voz a -14 LUFS. |
+| PLANNER-2026-VOZ-MARCELA.mp4 | 49s | Video "2026 Planner" con la VOZ DE ELEVENLABS (Marcela, chilena) que el usuario descargó, + subtítulos nuevos karaoke sincronizados a esa voz (tapan los viejos). El video se ralentizó ~9.7% (setpts) para calzar con la voz de 48.8s. 1080x1920, voz a -14 LUFS. Precio en CTA: 6.990. |
+
