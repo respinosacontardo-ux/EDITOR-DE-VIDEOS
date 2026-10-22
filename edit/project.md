@@ -95,3 +95,8 @@
 - Render 1080x1920, grade sutil, audio original conservado (se reemplaza/duckea al recibir la voz).
 - Guion de voz en español chileno (~58s) con modismos naturales (po, cachái, al tiro, regia, te tinca), versión limpia + timecodes + ajustes ElevenLabs. Precios: $3000 ARG / $100 UYU.
 **Outstanding:** ElevenLabs no es accesible desde el entorno (API de pago/bloqueada). El usuario genera el audio y lo envía; luego se sincroniza + mezcla + loudnorm -14. Opcional: música libre de derechos bajo la voz.
+
+## Sesión 9 — 2026-10-22 (PROMO PAPELIA: cambiar música)
+**Pedido:** cambiar la música del promo de papeliadigital.store (Super Pack Agendas 2027) por una sin derechos de autor.
+**Decisiones:** audio original (canción con copyright) reemplazado por pista ORIGINAL sintetizada (edit/promo_papelia/make_music_promo.py): C mayor I-V-vi-IV, 112 BPM, arp brillante + pad + bajo con bounce + kick/clap/hats, 19.6s, fade in/out. 100% libre de derechos (generada localmente). Video escalado 360x450→1080x1350 (4:5) lanczos, grade sutil; se conservan todos los overlays/marca del video. loudnorm -14 LUFS. Fuente 360x450 muy baja → upscale 3x (queda algo suave pero mejor que 360px para Meta).
+**Outstanding:** si quieren, variante 9:16 (1080x1920) para Reels/Stories, u otro estilo de música (más chill / más EDM).

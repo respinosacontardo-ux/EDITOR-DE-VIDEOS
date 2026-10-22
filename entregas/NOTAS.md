@@ -37,3 +37,5 @@ Fuentes de la edición del REEL-7 en `edit/reel7/` (alineación de palabras, sub
 
 | AGENDAS-IMPRIMIBLES-SIN-TEXTO.mp4 | 58s | Video de agendas 2027 imprimibles con el BLOQUE DE TEXTO AZUL ELIMINADO (ffmpeg delogo sobre la caja fija x38-540/y716-830), escalado a 1080x1920, grade sutil. Base lista para ponerle voz en off. Audio original conservado (a reemplazar/duckear cuando llegue la voz). |
 | GUION-VOZ-CHILENA.txt | - | Guion de voz en off en español chileno (~58s) para generar en ElevenLabs, con versión limpia, versión con timecodes y ajustes recomendados. |
+
+| PROMO-PAPELIA-MUSICA-LIBRE.mp4 | 20s | Promo "Super Pack Agendas 2027" (papeliadigital.store) con la MÚSICA CAMBIADA por una pista libre de derechos ORIGINAL (bright/bouncy, 112 BPM). Se conservan todos los textos y la marca del video. Escalado a 1080x1350 (4:5 feed), grade sutil, -14 LUFS. Audio original (con derechos) reemplazado. |
