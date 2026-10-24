@@ -1,0 +1,39 @@
+==========================================================
+GUION — VOZ EN OFF (ElevenLabs) · "Letter of the Week" bundle
+Video: ~10 segundos · Idioma: inglés
+==========================================================
+
+-------- OPCIÓN A (recomendada · ~10s) --------
+Pegar tal cual en ElevenLabs:
+
+POV: no more letter-prep burnout. This Letter of the Week bundle is done for you — a ready-to-print booklet for every single letter. Just print, and teach. Tap the link and grab yours tonight.
+
+-------- OPCIÓN B (más corta · ~8s) --------
+Say goodbye to letter-prep burnout. One ready-to-print booklet for every letter — tracing, coloring, cutting, all done for you. Tap the link and grab the bundle.
+
+-------- VERSIÓN CON TIEMPOS (para calzar con el video) --------
+[00:00-00:03]  POV: no more letter-prep burnout.
+[00:03-00:07]  This Letter of the Week bundle is done for you - a ready-to-print booklet for every letter.
+[00:07-00:10]  Just print and teach. Tap the link and grab yours.
+
+==========================================================
+AJUSTES EN ELEVENLABS
+==========================================================
+- Voz: reutiliza "Sophie - Standard English" (la misma del video anterior,
+  para mantener coherencia de marca). Si quieres otra, elige una voz
+  US English femenina, calida y cercana (tono "maestra amigable").
+- Modelo: Eleven Multilingual v2 (o English v2).
+- Stability: 45-55  -  Similarity: 75  -  Style: 10-20  -  Speed: normal.
+- Es un guion corto; si al generarlo queda > 10s, sube Speed a 1.05-1.1
+  o usa la Opcion B.
+- Los guiones y comas marcan micro-pausas para que calce con los cortes
+  (cuadernillos D, K, P pasando).
+
+Cuando tengas el audio (MP3/WAV), mandamelo y:
+  - Lo pongo en el video, lo ajusto a los 10s,
+  - Le agrego subtitulos sincronizados (karaoke) si quieres,
+  - Normalizo a -14 LUFS para Meta.
+==========================================================
+
+NOTA: si en vez de ingles quieres venderlo a publico hispano,
+dimelo y te lo paso en espanol (neutro o chileno).
